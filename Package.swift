@@ -15,11 +15,11 @@ let package = Package(
         .target(
             name: "QuizTrain",
             dependencies: []),
-        .testTarget(
-            name: "QuizTrainTests",
-            dependencies: ["QuizTrain"],
-            resources: [
-                .copy("Tests/QuizTrainTests/Testing\ Misc/TestCredentials.json"),
-            ]),
+//         .testTarget(
+//             name: "QuizTrainTests",
+//             dependencies: ["QuizTrain"],
+//             resources: [
+//                 .copy("Tests/QuizTrainTests/Testing\ Misc/TestCredentials.json"),
+//             ]),
     ]
 )
